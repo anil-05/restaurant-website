@@ -1,18 +1,119 @@
 body{
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
 }
 
-
-
 .logo{
-    width: 15vw;
+    width: 10vw;
     height: 15vh;
 }
 
-header.header-section{
+.logo:hover{
+    cursor: pointer;
+}
+
+section.main-section{
+    background-image: url('../img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section-mask{
+    background-color: rgb(0, 0, 0, 0.45);
+}
+
+.header-section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.nav-bar ul li:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+    padding-bottom: 2px;
+}
+
+.table-button{
+    color: #f1f8ff;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 9vw;
+    height: 6vh;
+    font-weight: 600;
+}
+
+.table-button:hover{
+    color: orange;
+    background-color: #f1f8ff;
     
 }
+
+/* Hero unit section */
+
+.hero-unit-section{
+    margin: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-text-highlight-section{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.hero-image-section{
+    width: 40vw;
+    text-align: center;
+}
+
+.hero-image-section img{
+    width: 70%;
+    
+}
+
+h1.hero-text-section{
+    font-size: 3.5em;
+}
+
+p.hero-unit-description{
+    text-align: justify;
+}
+
+a.book-table-link{
+    text-decoration: none;
+    color: #f1f8ff;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    width: 9vw;
+    height: 5.5vh;
+    padding-top: 0.7em;
+    border-radius: 0.5em;
+    
+}
+
+a.book-table-link:hover{
+    color: orange;
+    background-color: #f1f8ff;
+}
+
