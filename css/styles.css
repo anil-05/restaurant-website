@@ -127,3 +127,66 @@ a.book-table-link:hover{
     background-color: #f1f8ff;
 }
 
+/* main section ends */
+
+.features-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3.features-text-section{
+    color: orange;
+    font-family: 'pacifico', cursive;
+}
+
+h1.features-text-heading{
+    color: #ccc;
+}
+
+/*
+highlights section starts here
+*/
+.highlight-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+article.highlight-card {
+    width: 18vw;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.highlight-card i {
+    font-size: 3em;
+    color: orange;
+}
+
+.highlight-card i:hover {
+    color: #fff !important;
+}
+
+
+.highlight-card h3 {
+    color: #565555;
+}
+.highlight-card p{
+    color: #ccc;
+}
+
+article.highlight-card:hover {
+    background-color: #FEA116;
+    color: #fff !important;
+}
+
+
