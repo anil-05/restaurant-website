@@ -87,7 +87,17 @@ section.main-section{
 
 .hero-image-section img{
     width: 70%;
+    animation: rotate 35s linear infinite;
     
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 h1.hero-text-section{
